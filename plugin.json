@@ -1,0 +1,20 @@
+{
+  "pluginName": "nba-course",
+  "version": "1.0.0",
+  "description": "A Utools plugin for NBA course information.",
+  "author": "Your Name",
+  "main": "index.html",
+  "development": {
+    "main":"http://127.0.0.1:3000"
+  },
+  "logo": "logo.png",
+  "preload": "./src/preload.js",
+  "features": [
+    {
+      "code": "nba-course",
+      "explain": "NBA Course",
+      "index": "index.html",
+      "cmds":["nba"]
+    }
+  ]
+}
